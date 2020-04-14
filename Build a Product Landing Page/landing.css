@@ -1,0 +1,46 @@
+#header{
+    display: flex;
+    height: 1em;
+    flex-wrap:wrap;
+
+}
+
+.header-des{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    font-size: 1em;
+}
+
+#nav-bar{
+    left:80%;
+    position:fixed;
+}
+
+#header-img{
+    height:100%;
+    width: 5%;
+}
+
+
+#video{
+    display: block;
+    width: 800px;
+    height:400px;
+    margin: 20px auto;
+
+}
+@media(max-width: 500px){
+    #video{
+        display: block;
+        width: 200px;
+        height:200px;
+        margin: 0 auto;
+
+}
+}
+
+.registe{
+    text-align:center;
+}

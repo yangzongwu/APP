@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link href="survey.css">
+</head>
+<body>
+    <div>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">this is a model</p>
+        <form id="survey-form" action="" name="">
+            <div>
+                <label id="name-label" for="name">Name:</label>
+                <input id="name" type="text" placeholder="xxx" required>
+                <label id="email-label" for="email">Email:</label>
+                <input id="email" type="email" placeholder="xxx@xx" required>
+                <label id="number-label" for="number">Age:</label>
+                <input id="number" type="number" min="0" max="120" placeholder="30">
+            </div>
+
+            <div class="">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <input type="radio" id="Definitely" value="Definitely" name="recommendfreeCodeCamp">
+                <label for="Definitely">Definitely</label>
+                <input type="radio" id="Maybe" value="Maybe" name="recommendfreeCodeCamp">
+                <label for="Maybe">Maybe</label>
+                <input type="radio" id="Not sure" value="Not sure" name="recommendfreeCodeCamp">
+                <label for="Not sure">Not sure</label>
+            </div>
+
+            <div class="">
+                <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
+                <br>
+                <select id="dropdown" name="select">
+                    <option value="Python">Python</option>
+                    <option value="Jave">Jave</option>
+                    <option value="C#">C#</option>
+                </select>
+            </div>
+
+            <div class="">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <label><input type="checkbox" name="what" value="Front-end">Front-end Projects</label>
+                <label><input type="checkbox" name="what" value="Back-end">Back-end Projects</label>
+                <label><input type="checkbox" name="what" value="Data">Data Visualization</label>
+                <label><input type="checkbox" name="what" value="Gitter">Gitter help rooms</label>
+            </div>
+            <div class="">
+                <label for="other">Any comments or suggestions?
+                    <textarea id="other"></textarea>
+                </label>
+            </div>
+            <input type="submit" id="submit" value="submit">
+        </form>
+    </div>
+
+</body>
+</html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

@@ -1,0 +1,44 @@
+* {
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+}
+
+@media(max-width: 800px) {
+    *{
+        font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    }
+}
+
+.welcome-section{
+    top: 0;
+    background-color: white;
+    height: 80vh;
+    padding-top: 20vh;
+}
+
+.navbar{
+    background-color: gray;
+    height: 8vh;
+    text-align: end;
+    font-size: 2em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+#img1{
+    width: 200px;
+    height: 200px;
+}
+#img2{
+    width: 200px;
+    height: 200px;
+}#img3{
+    width: 200px;
+    height: 200px;
+}
+ #img4{
+    width: 200px;
+    height: 200px;
+}
+
